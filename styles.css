@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #535670;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -19,7 +19,7 @@ header {
 }
 
 nav {
-    background: #555;
+    background: #31323f;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -31,6 +31,10 @@ nav a {
     margin: 0 15px;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .main {
     padding: 20px;
     background: white;
@@ -38,11 +42,30 @@ nav a {
 }
 
 .main h2 {
-    color: #333;
+    color: #7379d4;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.reference-img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.description {
+    flex: 1;
 }
 
 .main p {
     line-height: 1.6;
+    margin-bottom: 10px; /* Añadido para separar los párrafos */
+}
+
+.main ul {
+    margin-bottom: 10px; /* Añadido para separar la lista */
 }
 
 .main a {
@@ -55,9 +78,11 @@ nav a {
 }
 
 footer {
-    background: #333;
+    background: #535670;
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
