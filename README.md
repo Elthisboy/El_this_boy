@@ -6,12 +6,6 @@ Built as a **single-page static site** with no frameworks, no bundlers, and no e
 
 ---
 
-## 🔗 Live Preview
-
-> Open `index.html` directly in any browser — no server required.
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -48,25 +42,6 @@ elthisboyWeb/
 
 ---
 
-## 🎨 Design System
-
-| Token | Value |
-|---|---|
-| Background | `#0b0f1a` |
-| Card | `#1a2235` |
-| Accent | `#6366f1` |
-| Accent hover | `#818cf8` |
-| Text primary | `#e2e8f0` |
-| Text muted | `#64748b` |
-| Border radius | `12px` / `8px` |
-
-**Responsive breakpoints:**
-- `≤ 900px` — collaboration grid collapses to 1 column
-- `≤ 768px` — mobile nav, 2-column stats, single-column projects
-- `≤ 480px` — single-column buttons and contact cards
-- `≤ 400px` — single-column stats
-
----
 
 ## 🚀 Featured Projects
 
